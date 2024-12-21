@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GeneretPassword</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="newPass"></h1>
+      <input type="range" id="range" min="6" max="20" value="10" />
+      <p id="rangeval"></p>
+      <div class="checkbox">
+        <input type="checkbox" name="capLet" id="capLet" />
+        <label for="capLet">UpperCase</label>
+        <br />
+        <input type="checkbox" name="smallLet" id="smallLet" />
+        <label for="smallLet">LoverCase</label>
+        <br />
+        <input type="checkbox" name="number" id="number" />
+        <label for="number">number</label>
+        <br />
+        <input type="checkbox" name="symbal" id="symbal" />
+        <label for="symbal">Symbol</label>
+      </div>
+      <button id="genPass"> Generate Password</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
